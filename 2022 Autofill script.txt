@@ -1,0 +1,19 @@
+#!/bin/bash
+
+TEAM_NAME="SHYNC"
+MEMBER_COUNT=4
+UNI_NAME="SLIIT"
+
+FILE_NAME="${TEAM_NAME" > "$FILE_NAME"
+
+echo "Your Team Name: $TEAM_NAME" > "$FILE_NAME"
+
+echo "No. of Members in your Team: $MEMBER_COUNT" >> "$FILE_NAME"
+
+echo "Your Uni: $UNI_NAME" >> "$FILE_NAME"
+
+echo "$TEAM_NAME"
+
+echo "$MEMBER_COUNT"
+
+echo "$UNI_NAME"
