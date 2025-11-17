@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Hi! Welcome to SLIIT BASHAWAY 2022."
+
+read -p "Your name:" team_name
+read -p "No. of members in your Team: " member_count
+read -p "Your Uni: " uni_name
+
+echo "---"
+echo "Thank You! Your details have been recorded as:"
+echo "Team: $team_name"
+echo "Member: $member_count"
+echo "University: $uni_name"
