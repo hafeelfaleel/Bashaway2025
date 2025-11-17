@@ -1,0 +1,15 @@
+#!/bin/bash
+
+mkdir -p Output
+
+for zip_file in Input/*.zip; do
+
+        [ -f "$zip_file" ] || continue
+        
+        if ! unzip -l "$zip_file" | awk '{print $4}' | grep -xq "password.txt"; then
+        
+                cp "$zip_file" Output/
+                
+        fi
+        
+done
